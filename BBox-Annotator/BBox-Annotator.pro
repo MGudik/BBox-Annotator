@@ -12,15 +12,21 @@ SOURCES += \
     annotationscene.cpp \
     annotationview.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    networkpredictor.cpp
 
 HEADERS += \
     annotationscene.h \
     annotationview.h \
-    mainwindow.h
+    mainwindow.h \
+    networkpredictor.h
 
 FORMS += \
     mainwindow.ui
+
+INCLUDEPATH += D:/cv2/include
+
+LIBS += D:/cv2/x64/vc15/lib/opencv_world460.lib
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
