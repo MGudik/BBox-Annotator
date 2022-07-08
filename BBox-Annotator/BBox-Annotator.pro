@@ -24,9 +24,9 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
-INCLUDEPATH += D:/cv2/include
+INCLUDEPATH += C:/Users/MGudi/cv2/include
 
-LIBS += D:/cv2/x64/vc15/lib/opencv_world460.lib
+LIBS += C:/Users/MGudi/cv2/x64/vc15/lib/opencv_world460.lib
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
